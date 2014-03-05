@@ -15,13 +15,19 @@
   	<div style="text-align : center;">
   		<img src="images/logo.png" height=32 width=32></img>
     </div>
-    <h1>Personality Survey</h1>
+    <h1>Graydon Web Design</h1>
   </div>
   <div data-role="navbar">
     <ul>
       <li><a href="#home" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#aboutme"data-theme="c" data-icon="gear">About Me</a></li>
-      <li><a href="#contact"data-theme="c" data-icon="info">Contact Me</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="info">About Me</a></li>
+      <li><a href="#contact"data-theme="c" data-icon="search">Contact Me</a></li>
+    </ul>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#projects" data-theme="c" data-icon="grid">Projects</a></li>
+      <li><a href="#services" data-theme="c" data-icon="gear">Services</a></li>
     </ul>
   </div>
   <section role="main" class="ui-content">
@@ -34,14 +40,23 @@
 
 <div data-role="page" id="aboutme">
   <div data-role="header"data-theme="c">
-    <h1>Survey Questions</h1>
+	<div style="text-align : center;">
+  		<img src="images/logo.png" height=32 width=32></img>
+    </div>
+    <h1>Graydon Web Design</h1>
   </div>
   <div data-role="navbar">
     <ul>
       <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#aboutme" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="gear">About Me</a></li>
-      <li><a href="#contact"data-theme="c" data-icon="info">Contact Me</a></li>    
+      <li><a href="#aboutme" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">About Me</a></li>
+      <li><a href="#contact"data-theme="c" data-icon="search">Contact Me</a></li>    
       </ul>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#projects" data-theme="c" data-icon="grid">Projects</a></li>
+      <li><a href="#services" data-theme="c" data-icon="gear">Services</a></li>
+    </ul>
   </div>
   <div data-role="content">
 	<p>Graydon Armstrong, Web Design Extraordinaire.</p>
@@ -76,13 +91,96 @@
 
 <div data-role="page" id="contact">
   <div data-role="header"data-theme="c">
-    <h1>Contact Me</h1>
+	<div style="text-align : center;">
+  		<img src="images/logo.png" height=32 width=32></img>
+    </div>
+    <h1>Graydon Web Design</h1>
   </div>
   <div data-role="navbar">
     <ul>
       <li><a href="#home"data-theme="c" data-icon="home">Home</a></li>
-      <li><a href="#aboutme"data-theme="c" data-icon="gear">About Me</a></li>
-      <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">Contact Me</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="info">About Me</a></li>
+      <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="search">Contact Me</a></li>
+    </ul>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#projects" data-theme="c" data-icon="grid">Projects</a></li>
+      <li><a href="#services" data-theme="c" data-icon="gear">Services</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+    <form action="#home" method="post" name="contactForm" data-ajax="false">
+      <label for"name">Name:</label>
+      <input type="text" name="name" id="name">
+      <label for"number">Telephone Number:</label>
+      <input type="tel" name="number" id="number">
+      <label for"email">Email Address:</label>
+      <input type="email" name="email" id="email">
+      <button class="ui-btn ui-corner-all" data-theme="c">submit</button>
+    </form>
+  </div>
+  <div data-role="footer"data-theme="c"data-position="fixed">
+    <h4>&copy Graydons Web Design 2014</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="projects">
+  <div data-role="header"data-theme="c">
+	<div style="text-align : center;">
+  		<img src="images/logo.png" height=32 width=32></img>
+    </div>
+    <h1>Graydon Web Design</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home"data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="info">About Me</a></li>
+      <li><a href="#contact" data-theme="c" data-icon="search">Contact Me</a></li>
+    </ul>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#projects" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="grid">Projects</a></li>
+      <li><a href="#services" data-theme="c" data-icon="gear">Services</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+    <form action="#home" method="post" name="contactForm" data-ajax="false">
+      <label for"name">Name:</label>
+      <input type="text" name="name" id="name">
+      <label for"number">Telephone Number:</label>
+      <input type="tel" name="number" id="number">
+      <label for"email">Email Address:</label>
+      <input type="email" name="email" id="email">
+      <button class="ui-btn ui-corner-all" data-theme="c">submit</button>
+    </form>
+  </div>
+  <div data-role="footer"data-theme="c"data-position="fixed">
+    <h4>&copy Graydons Web Design 2014</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="services">
+  <div data-role="header"data-theme="c">
+	<div style="text-align : center;">
+  		<img src="images/logo.png" height=32 width=32></img>
+    </div>
+    <h1>Graydon Web Design</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home"data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="info">About Me</a></li>
+      <li><a href="#contact" data-theme="c" data-icon="search">Contact Me</a></li>
+    </ul>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#projects" data-theme="c" data-icon="grid">Projects</a></li>
+      <li><a href="#services" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="gear">Services</a></li>
     </ul>
   </div>
   <div data-role="content">
