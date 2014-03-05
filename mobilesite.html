@@ -1,0 +1,105 @@
+<!-- Example jQuery Mobile File -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Mobile Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.1/jquery.mobile-1.4.1.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="home">
+  <div data-role="header" data-theme="c">
+  	<div style="text-align : center;">
+  		<img src="images/logo.png" height=32 width=32></img>
+    </div>
+    <h1>Personality Survey</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="gear">About Me</a></li>
+      <li><a href="#contact"data-theme="c" data-icon="info">Contact Me</a></li>
+    </ul>
+  </div>
+  <section role="main" class="ui-content">
+  </section>
+  <div data-role="footer" data-theme="c" data-position="fixed">
+    <h4>&copy Graydons Web Design 2014</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="aboutme">
+  <div data-role="header"data-theme="c">
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#aboutme" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="gear">About Me</a></li>
+      <li><a href="#contact"data-theme="c" data-icon="info">Contact Me</a></li>    
+      </ul>
+  </div>
+  <div data-role="content">
+	<p>Graydon Armstrong, Web Design Extraordinaire.</p>
+	<p>I am a Programming Analyst Student who aspires to run my own business. I want to do web design and programming for clients that is regarded as professional and of high quality. I enjoy programming and the challenges that it gives me from day to day.</p>
+	<img class="shadow_image" src="images/self_image.JPG" width=160 >
+	<hr />
+	<h4>Resume</h4>
+	<h5>Summary of Skills</h5>
+	<ul>
+		<li>Competent with standard office applications such as: Microsoft Word, Excel, Powerpoint, Outlook</li>
+		<li>Academic Experience with: HTML, CSS, ASP.NET, C#, Python, Java, PHP, SQL, DB2, Visual Basic</li>
+		<li>Industry experience with computer hardware & software doing tasks such as: building my own computer, setting up a home network, O/S installations, deploying hardware for departments & classrooms, troubleshooting for staff and students</li>
+		<li>Familiar and knowledgeable with operating systems: Windows XP, Windows 7, Windows 8, Linux, Mac OS X</li>
+		<li>Full G License</li>
+	</ul>
+	
+	<h5>Education</h5>
+	<p>Georgian College, Barrie, Ontario <br/>
+	Computer Programmer Analyst - Co-op Program, 3 Year Course<br/>
+	Courses include:</p>
+	<ul>
+		<li>Web Programming, Advanced Java, Advanced Databases, System Analysis and Design, Web Design, Rapid Application Dev</li>
+		<li>Academic Deans List - 92 Percent Average</li>
+	</ul>
+	<h5>Job Experience</h5>
+  </div>
+  <div data-role="footer"data-theme="c"data-position="fixed">
+    <h4>&copy Graydons Web Design 2014</h4>
+  </div>
+</div>
+
+
+<div data-role="page" id="contact">
+  <div data-role="header"data-theme="c">
+    <h1>Contact Me</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home"data-theme="c" data-icon="home">Home</a></li>
+      <li><a href="#aboutme"data-theme="c" data-icon="gear">About Me</a></li>
+      <li><a href="#contact" class="ui-btn-active ui-state-persist" data-theme="c" data-icon="info">Contact Me</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+    <form action="#home" method="post" name="contactForm" data-ajax="false">
+      <label for"name">Name:</label>
+      <input type="text" name="name" id="name">
+      <label for"number">Telephone Number:</label>
+      <input type="tel" name="number" id="number">
+      <label for"email">Email Address:</label>
+      <input type="email" name="email" id="email">
+      <button class="ui-btn ui-corner-all" data-theme="c">submit</button>
+    </form>
+  </div>
+  <div data-role="footer"data-theme="c"data-position="fixed">
+    <h4>&copy Graydons Web Design 2014</h4>
+  </div>
+</div>
+
+</body>
+</html>
