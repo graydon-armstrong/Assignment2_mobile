@@ -904,3 +904,8 @@ button[disabled],
 	outline-width: 1px;
 	outline-style: auto;
 }
+
+*
+{
+	font-family: 'Open Sans', sans-serif;
+}
